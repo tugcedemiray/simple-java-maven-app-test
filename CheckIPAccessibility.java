@@ -33,6 +33,8 @@ public class CheckIPAccessibility {
 
                 // Print the response content
                 System.out.println("IP is accessible. Response: " + response.toString());
+            } else {
+                System.out.println("IP is not accessible. Response Code: " + responseCode);
             }
         } catch (Exception e) {
             e.printStackTrace();
