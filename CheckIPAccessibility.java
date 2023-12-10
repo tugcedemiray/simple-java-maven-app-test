@@ -37,6 +37,7 @@ public class CheckIPAccessibility {
         } catch (Exception e) {
             e.printStackTrace();
             System.out.println("Error: " + e.getMessage());
+            System.exit(1);
         }
     }
 }
